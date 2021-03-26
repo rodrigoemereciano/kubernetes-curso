@@ -1,2 +1,2 @@
 # kubernetes-curso
-Atividades do curso de K8s
+Estudos com o K8s.
