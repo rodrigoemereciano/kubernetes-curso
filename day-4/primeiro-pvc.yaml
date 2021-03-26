@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: primeiro-pvc
+  namespace: default
+spec:
+  storageClassName: ""
+  accessModes:
+  - ReadWriteMany
+  resources:
+    requests:
+      storage: 800Mi
+  selector:
+    matchLabels:
+      name: primeiro-pv 
